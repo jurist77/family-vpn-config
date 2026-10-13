@@ -12,8 +12,15 @@
   "DnsHosts": {
     "cloudflare-dns.com": "1.1.1.1"
   },
- "DirectSites": [
-  "geosite:category-ru"
+"DirectSites": [
+  "geosite:category-ru",
+  "full:google.com",
+  "full:www.google.com",
+  "domain:gmail.com",
+  "full:mail.google.com",
+  "full:maps.google.com",
+  "full:drive.google.com",
+  "full:docs.google.com"
 ],
   "DirectIp": [
     "geoip:ru",
@@ -24,7 +31,17 @@
     "224.0.0.0/4",
     "255.255.255.255"
   ],
-  "ProxySites": [],
+  "ProxySites": [
+    "ProxySites": [
+  "domain:gemini.google.com",
+  "domain:aistudio.google.com",
+  "domain:generativelanguage.googleapis.com",
+  "domain:youtube.com",
+  "domain:youtu.be",
+  "domain:googlevideo.com",
+  "domain:youtubei.googleapis.com",
+  "domain:youtube-nocookie.com"
+  ],
   "ProxyIp": [],
   "BlockSites": [],
   "BlockIp": [],
