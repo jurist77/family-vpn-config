@@ -12,10 +12,9 @@
   "DnsHosts": {
     "cloudflare-dns.com": "1.1.1.1"
   },
-  "DirectSites": [
-    "geosite:category-ru",
-    "geosite:ru"
-  ],
+ "DirectSites": [
+  "geosite:category-ru"
+],
   "DirectIp": [
     "geoip:ru",
     "10.0.0.0/8",
